@@ -39,7 +39,9 @@ const ReportTable = ({ reports }) => {
       </Button>
       </Link>
       <Table 
-        pagination={{ pageSize: 10 }} 
+        pagination={{ 
+          total: 500
+        }} 
         columns={TableColumns} 
         dataSource={reports}
       />

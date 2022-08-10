@@ -38,8 +38,6 @@ const Home = () => {
 
 
 
-
-
   const handleClick = (city) => {
     dispatch(startFetching());
     getObservation(city)

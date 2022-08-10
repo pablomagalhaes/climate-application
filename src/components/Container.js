@@ -9,6 +9,7 @@ const Container = styled.div`
   padding: 15px;
   position: fixed;
   width: 100%;
+  overflow-x: scroll;
 `;
 
 export default Container;
